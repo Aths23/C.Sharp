@@ -38,7 +38,7 @@ namespace MyCollections
             bk.Add(new HW1(2, "Attitude is Everything"));
             bk.Add(new HW1(3, "Power of Subconsicous Mind"));
 
-            foreach (var a in bk)
+            foreach (var k in bk)
                 Console.WriteLine(a.Bookid + " " + a.Bookname);
 
             SortedSet<HW1> sk = new SortedSet<HW1>();
